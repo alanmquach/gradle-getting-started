@@ -12,7 +12,7 @@ public class Main {
         // Parameterized route
         get("/:name", (request, response) -> {
             String name = request.params(":name");
-            return "Hello: " + request.params(":name"); 
+            return "Hello: " + name;
         });
     }
 }
