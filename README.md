@@ -9,9 +9,9 @@ This application support the [Getting Started with Gradle on Heroku](https://dev
 Make sure you have Java installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
 ```sh
-$ git clone https://github.com/heroku/gradle-getting-started.git
+$ git clone https://github.com/alanmquach/gradle-getting-started.git
 $ cd gradle-getting-started
-$ mvn install
+$ ./gradlew stage
 $ heroku local web
 ```
 
